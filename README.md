@@ -1,2 +1,266 @@
-# page
-page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteSphere</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .logo {
+            width: 900px;
+            height: 300px;
+            z-index: 2;
+            
+            
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: fadeIn 5s forwards;
+            
+        }
+
+        @keyframes fadeIn {
+         0% { opacity: 0; }
+         100% { opacity: 1;}
+        }
+      
+
+       #backgroundvid1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -2;
+        
+        
+       }
+
+       #backgroundvid2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170%;
+        object-fit: cover;
+        z-index: -2;
+        top: 100%;
+        
+       }
+
+       #backgroundvid3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170%;
+        object-fit: cover;
+        z-index: -2;
+        top: 270%;
+        
+       }
+       #backgroundvid4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170%;
+        object-fit: cover;
+        z-index: -2;
+        top: 440%;
+        
+       }
+      
+    .overlay1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(26, 25, 25, 0.6); 
+        z-index: -1;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170%;
+        background: rgba(26, 25, 25, 0.8); 
+        z-index: -1;
+        top: 100%;
+    }
+    .overlay3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170%;
+        background: rgba(26, 25, 25, 0.7); 
+        z-index: -1;
+        top: 270%;
+    }
+    .overlay4 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 170%;
+        background: rgba(26, 25, 25, 0.8); 
+        z-index: -1;
+        top: 440%;
+    }
+
+    
+    
+
+    .subtitle{
+        font-size: 15pt;
+        position: absolute;
+        top: 48%;
+        left: 41%;
+        animation: fadeIn 3s forwards;
+    }
+    .subtitle2{
+        font-size: 60pt;
+        position: absolute;
+        top: 130%;
+        left: 160px;
+        animation: fadeIn 5s forwards;
+    }
+    .subsubtitle{
+        font-size: 16pt;
+        position: absolute;
+        top: 180%;
+        left: 160px;
+        font-weight: lighter;
+        animation: fadeIn 5s forwards;
+    }
+    .Mission {
+        font-size: 25pt;
+        position: absolute;
+        top: 285%;
+        left: 200px;
+        animation: fadeIn 5s forwards;
+        
+    }
+    .Missionsub{
+        font-size: 55pt;
+        position: absolute;
+        top: 290%;
+        left: 160px;
+        font-weight: lighter;
+        animation: fadeIn 5s forwards;
+        
+        text-align: left;
+    }
+    .Missionsub em {
+        font-size: 20pt;
+        
+    }
+    .Missionsub2{
+        font-size: 55pt;
+        position: absolute;
+        top: 365%;
+        right: 160px;
+        font-weight: lighter;
+        animation: fadeIn 5s forwards;
+        
+        text-align: right;
+    }
+    
+    .Missionsub2 em {
+        font-size: 20pt;
+        
+    }
+
+    .Ad2{
+        font-size: 55pt;
+        position: absolute;
+        top: 450%;
+        left: 180px;
+        font-weight: lighter;
+        animation: fadeIn 5s forwards;
+        
+        text-align: right;
+    }
+    #Byte{
+        font-size: 20pt;
+        left: 20px;
+        position: fixed;
+        top: 0.5%;
+
+    }
+    #FAQ{
+        font-size: 16pt;
+        right: 220px;
+        
+        position: fixed;
+        top: 2%;
+    }
+    #Con{
+        font-size: 16pt;
+        right: 130px;
+        
+        position: fixed;
+        top: 2%;
+    }
+
+    </style>
+</head>
+<body>
+    <img src="https://i.ibb.co/yy0RHYR/396625501-2793739230776158-927537576164082644-n-removebg-preview.png" title="Image Title" class="logo">
+
+    <iframe id="backgroundvid1" width="1000" height="480" src="https://www.youtube.com/embed/nlhIwAKjT_g?autoplay=1&mute=1&loop=1" title="1104 11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <header>
+        <div class="overlay1"></div>
+        <div class="overlay2"></div>
+        <div class="overlay3"></div>
+        <div class="overlay4"></div>
+       <!-- <div class="video-container">
+             <video autoplay loop muted id="backgroundvid1">
+                <source src="https://youtu.be/nlhIwAKjT_g" type="video/mp4">
+            </video>
+            </div> -->
+        
+        <p id="Byte">ByteSphere</p>
+        <p id="FAQ">FAQ</p>
+        <p id="Con">Contact</p>
+        
+       
+        <div class="subtitle"><p>Fast. Reliable. Softwares.</p></div>
+        <div class="subtitle2"><p>World's Most <br />Best and Fastest<br /> Softwares.</p></div>
+        <div class="subsubtitle"><p>Efficient, Reliable and Productive Software System <br /></p></div>
+        <div class="Mission"><p>Mission:</p></div>
+       
+        <div class="Missionsub"><p>"Providiving User-Friendly <br/>Softwares and Security<br /> Systems" <br/><em>| that will advance the computer experience. |</em> </p></div>
+        <div class="Missionsub2">     <p>"Developing New <br />Technological Solutions" <br /><em>| to efficiently use computer technologies. |</em></p> </div>
+            
+        <div class="Ad2">All in one, <br />Management System</div>
+
+        <video autoplay loop muted id="backgroundvid2">
+            <source src="C:\Users\PatPat\Downloads\1106.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted id="backgroundvid3">
+            <source src="C:\Users\PatPat\Downloads\1106_(1).mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted id="backgroundvid4">
+            <source src="C:\Users\PatPat\Downloads\1106_(2).mp4" type="video/mp4">
+        </video>
+
+        <video autoplay loop muted id="backgroundvid5">
+            <source src="" type="video/mp4">
+        </video>
+    </header>
+</body>
+</html>
